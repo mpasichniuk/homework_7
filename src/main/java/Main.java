@@ -4,7 +4,7 @@ public class Main {
     private static Class<Object> aClass;
 
     public static void main(String[] args) {
-        Testing testing = new Testing();
+        Testing test = new Testing();
         TestHandler.start(aClass);
     }
 }
